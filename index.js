@@ -34,7 +34,7 @@ const warns = JSON.parse(fs.readFileSync('./warns.json'))
 
 const inter = JSON.parse(fs.readFileSync("./json/inter.json"))
 
-client.login('NjAyNTg4MTgxNTI2NzQxMDAy.XTsptA.sOIaP-H0ioP5Osfg0m6ZcEXQmGc');
+client.login(token);
 
 client.on('message', message => {
     if (message.content === prefix + 'helpmp') {
