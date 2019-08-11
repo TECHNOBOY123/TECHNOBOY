@@ -2,6 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const moment = require('moment');
+const token = precess.env.token
 require('moment-duration-format');
 moment.locale('fr');
 const fs = require('fs')
